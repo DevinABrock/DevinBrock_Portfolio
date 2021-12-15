@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* ---------- NavBar ---------- */
+
+.navbar{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navImage{
+    height: 40px;
+    margin-left: 10px;
+}
+.navTitle{
+    font-size: 60px;
+}
+.navTitle2{
+    color: #D8BA83;
+}
+.navList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22em;
+}
+.navItem{
+    font-size: 25px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
+.navListTop{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.navListBot{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* ---------- Banner ---------- */
+
+.bannerContainer{
+    width: 100%;
+    height: 15vh;
+    background-color: #27334A;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+
+/* ---------- About Me ---------- */
+
+.aboutMeContainer{
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeArea{
+    width: 50%;
+    height: 80%;
+    /* background-color: wheat; */
+    border-style: solid;
+    border-width: 3px;
+    border-color: #D8BA83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutMeName{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.aboutMeTitle{
+    font-size: 35px;
+}
+.aboutMeJobTitle{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+.aboutMeDescription{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: #827A7A;
+    text-align: center;
+}
+.aboutMeLang{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.aboutMeResume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D8BA83;
+    color: #D8BA83;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fbfbfb;
+}
+
+
+/* ---------- Projects ---------- */
+
+.projectContainer{
+    height: 70vh;
+    background-color: #27334A;
+    display: flex;
+    overflow-x: scroll;
+}
+.projectSectionTitle{
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27334A;
+}
+.projectArea{
+    margin-bottom: 250px;
+}
+.projectTop{
+    height: 55vh;
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.projectBot{
+    height: 45vh;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.projectImage{
+    background-color: black;
+    width: 40rem;
+    height: 28rem;
+    /* border-radius: 20px;
+    box-shadow: 3px 3px #D8BA83; */
+    margin-right: 20px;
+}
+.projectDescriptionArea{
+    /* background-color: black; */
+    width: 48rem;
+    height: 29rem;
+}
+.projectTitle{
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.projectDescription{
+    color: white;
+    height: 47vh;
+    overflow-y: scroll;
+}
+.projectInfo{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.projectSub{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #D8BA83;
+}
+.projectButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 61%;
+}
+.projectBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D8BA83;
+    color: #D8BA83;
+    font-weight: bold;
+    text-decoration: none;
+    /* margin-top: 15px; */
+}
+.projectALinks{
+    color: #D8BA83;
+    text-decoration: none;
+}
+
+.projectScreenshot{
+    background-color: white;
+    height: 20rem;
+    width: 29rem;
+}
+.projectScrollMsg{
+    color: white;
+    background-color: #27334A;
+    padding-left: 3%;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+/* ---------- Footer ---------- */
+
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerList{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerImage{
+    height: 90px;
+}
