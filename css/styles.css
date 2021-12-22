@@ -86,14 +86,19 @@ body{
 }
 .aboutMeName{
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+.aboutMeinfo{
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 .aboutMeTitle{
-    font-size: 35px;
+    font-size: 40px;
 }
 .aboutMeJobTitle{
     font-size: 20px;
     margin-bottom: 15px;
+    margin-top: 12px;
     font-weight: lighter;
 }
 .aboutMeDescription{
@@ -102,6 +107,7 @@ body{
     font-weight: lighter;
     color: #827A7A;
     text-align: center;
+    margin-top: 10px;
 }
 .aboutMeLang{
     font-size: 20px;
@@ -167,7 +173,7 @@ body{
 .projectImage{
     background-color: black;
     width: 40rem;
-    height: 28rem;
+    height: 25rem;
     /* border-radius: 20px;
     box-shadow: 3px 3px #D8BA83; */
     margin-right: 20px;
@@ -256,4 +262,8 @@ body{
 }
 .footerImage{
     height: 90px;
+}
+
+.contactArea{
+
 }
