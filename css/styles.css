@@ -134,10 +134,11 @@ body{
 /* ---------- Projects ---------- */
 
 .projectContainer{
-    height: 70vh;
+    height: 200rem;
     background-color: #27334A;
     display: flex;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
+    flex-direction: column;
 }
 .projectSectionTitle{
     color: white;
