@@ -134,7 +134,7 @@ body{
 /* ---------- Projects ---------- */
 
 .projectContainer{
-    height: 200rem;
+    height: 100%;
     background-color: #27334A;
     display: flex;
     /* overflow-x: scroll; */
@@ -151,7 +151,7 @@ body{
     background-color: #27334A;
 }
 .projectArea{
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 .projectTop{
     height: 55vh;
