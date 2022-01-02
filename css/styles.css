@@ -48,6 +48,7 @@ body{
 }
 
 
+
 /* ---------- Banner ---------- */
 
 .bannerContainer{
@@ -85,7 +86,7 @@ body{
     flex-direction: column;
 }
 .aboutMeName{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 5px;
 }
 .aboutMeinfo{
@@ -133,25 +134,10 @@ body{
 
 /* ---------- Projects ---------- */
 
-.projectContainer{
-    height: 100%;
-    background-color: #27334A;
-    display: flex;
-    /* overflow-x: scroll; */
-    flex-direction: column;
-}
-.projectSectionTitle{
-    color: white;
-    font-size: 35px;
-    font-weight: lighter;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #27334A;
-}
+
+
 .projectArea{
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 .projectTop{
     height: 55vh;
@@ -201,17 +187,105 @@ body{
     margin-bottom: 20px;
     font-size: 18px;
 }
+
+
+.projectScreenshot{
+    background-color: white;
+    height: 20rem;
+    width: 29rem;
+}
+.projectScrollMsg{
+    color: white;
+    background-color: #27334A;
+    padding-left: 3%;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+/* ---NNNNEEEWWW--- */
+.projectSectionTitle{
+    color: black;
+    font-size: 45px;
+    font-weight: lighter;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #27334A; */
+    /* width: 100%; */
+}
+.projectContainer{
+    height: 100%;
+    /* width: 100vw; */
+    /* background-color: #27334A; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project{
+    background-color: black;
+    height: 50rem;
+    width: 90%;
+    /* border-radius: 15px; */
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.projectImg{
+    position: absolute;
+    height: 100%;
+}
+.opac{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 998;
+    position: absolute;
+    opacity: .8;
+}
+.projectTextArea{
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+.projectName{
+    font-size: 2rem;
+}
+.projectText{
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+}
+.dash{
+    width: 75%;
+    height: .3rem;
+    background-color: #D8BA83;
+    border-style: none;
+    margin-bottom: 1rem;
+}
 .projectSub{
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #D8BA83;
 }
 .projectButtons{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 61%;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
 }
 .projectBtn{
     display: flex;
@@ -233,19 +307,7 @@ body{
     text-decoration: none;
 }
 
-.projectScreenshot{
-    background-color: white;
-    height: 20rem;
-    width: 29rem;
-}
-.projectScrollMsg{
-    color: white;
-    background-color: #27334A;
-    padding-left: 3%;
-    padding-top: 10px;
-    font-size: 25px;
-    font-weight: lighter;
-}
+
 
 
 /* ---------- Footer ---------- */
@@ -267,4 +329,58 @@ body{
 
 .contactArea{
 
+}
+
+@media all and (max-width: 1000px){
+    /* NAVBAR */
+    .navbar{
+        height: 100px;
+    }
+    .navTitle{
+        font-size: 30px;
+    }
+    .navImage{
+        height: 30px;
+    }
+    .navItem{
+        font-size: 20px;
+    }
+
+
+    /* ABOUT ME */
+    .aboutMeArea{
+        width: 85%;
+        height: 70%;
+    }
+    .aboutMeContainer{
+        height: 90vh;
+    }
+
+
+    /* PROJECTS */
+    .projectSectionTitle{
+        font-size: 30px;
+        height: 70px;
+    }
+    .project{
+        width: 90%;
+        /* border-radius: 20px; */
+    }
+    .projectName{
+        font-size: 1.7rem;
+    }
+    .projectText{
+        font-size: 1.2rem;
+        margin-bottom: 4%;
+    }
+    .projectTextArea{
+        width: 80%;
+    }
+    .projectButtons{
+        width: 100%;
+    }
+    .projectBtn{
+        width: 120px;
+        font-size: 16px;
+    }
 }
