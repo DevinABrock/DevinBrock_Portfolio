@@ -15,7 +15,7 @@ body{
     padding-right: 5%;
 }
 .navImage{
-    height: 40px;
+    height: 50px;
     margin-left: 10px;
 }
 .navTitle{
@@ -96,6 +96,7 @@ body{
 .aboutMeTitle{
     font-size: 40px;
     letter-spacing: 1.5px;
+    font-weight: bold;
 }
 .aboutMeJobTitle{
     font-size: 20px;
@@ -353,7 +354,7 @@ body{
         font-size: 30px;
     }
     .bannerContainer{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
 
@@ -392,6 +393,8 @@ body{
         font-size: 2.5rem;
         height: 70px;
         letter-spacing: 1px;
+        margin-bottom: 40px;
+
     }
     .project{
         width: 95%;
@@ -473,9 +476,11 @@ body{
 
     /* PROJECTS */
     .projectSectionTitle{
-        font-size: 30px;
+        font-size: 35px;
         height: 70px;
         letter-spacing: 1px;
+        margin-bottom: 40px;
+
     }
     .project{
         width: 95%;
@@ -560,6 +565,8 @@ body{
         font-size: 30px;
         height: 70px;
         letter-spacing: 1px;
+        margin-bottom: 40px;
+
     }
     .project{
         width: 95%;
