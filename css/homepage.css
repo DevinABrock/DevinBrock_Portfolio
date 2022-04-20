@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.Navbar{
+
+}
+.NavMessage{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+.NavMessage:hover{
+    background-color: blue;
+}
+.NavLink{
+    color: white;
+}
+.NavLink:hover{
+    color: tomato;
+}
+.NavTitle{
+    height: 75px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 45px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: black;
+}
+.NavList{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.NavItem{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.Banner{
+    background-color: gray;
+    height: 500px;
+}

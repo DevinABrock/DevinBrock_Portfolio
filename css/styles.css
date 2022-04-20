@@ -88,22 +88,21 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.aboutMeName{
-    font-size: 25px;
-    margin-bottom: 5px;
-}
 .aboutMeinfo{
     font-size: 18px;
     margin-bottom: 5px;
+    letter-spacing: 1.5px;
 }
 .aboutMeTitle{
     font-size: 40px;
+    letter-spacing: 1.5px;
 }
 .aboutMeJobTitle{
     font-size: 20px;
     margin-bottom: 15px;
     margin-top: 12px;
     font-weight: lighter;
+    letter-spacing:1.5px;
 }
 .aboutMeDescription{
     font-size: 20px;
@@ -112,11 +111,13 @@ body{
     color: #827A7A;
     text-align: center;
     margin-top: 10px;
+    letter-spacing:1.5px;
 }
 .aboutMeLang{
     font-size: 20px;
     margin-bottom: 20px;
     font-weight: lighter;
+    letter-spacing:.5px;
 }
 .aboutMeResume{
     display: flex;
@@ -216,6 +217,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-top: dashed; */
     /* background-color: #27334A; */
     /* width: 100%; */
 }
@@ -231,6 +233,7 @@ body{
 .project{
     background-color: black;
     height: 50rem;
+    overflow-y: scroll;
     width: 90%;
     /* border-radius: 15px; */
     position: relative;
@@ -238,6 +241,7 @@ body{
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
 }
 .projectImg{
     position: absolute;
@@ -249,7 +253,7 @@ body{
     background-color: black;
     z-index: 998;
     position: absolute;
-    opacity: .8;
+    opacity: .7;
 }
 .projectTextArea{
     height: 100%;
@@ -334,7 +338,91 @@ body{
 
 }
 
-@media all and (max-width: 1000px){
+@media all and (max-width: 1200px){
+    /* NAVBAR */
+    .navbar{
+        height: 150px;
+    }
+    .navTitle{
+        font-size: 45px;
+    }
+    .navImage{
+        height: 50px;
+    }
+    .navItem{
+        font-size: 30px;
+    }
+    .bannerContainer{
+        font-size: 1.8rem;
+    }
+
+
+    /* ABOUT ME */
+    .aboutMeArea{
+        width: 60%;
+        height: 90%;
+    }
+    .aboutMeContainer{
+        height: 70vh;
+    }
+    .aboutMeTitle{
+        font-size: 2.5rem;
+    }
+    .aboutMeJobTitle{
+        font-size: 2rem;
+    }
+    .aboutMeinfo{
+        font-size: 1.5rem;
+    }
+    .aboutMeDescription{
+        font-size: 1.2rem;
+    }
+    .aboutMeLang{
+        font-size: 1.4rem;
+    }
+    .aboutMeResume{
+        height: 60px;
+        width: 200px;
+        font-size: 1.5rem;
+    }
+
+
+    /* PROJECTS */
+    .projectSectionTitle{
+        font-size: 2.5rem;
+        height: 70px;
+        letter-spacing: 1px;
+    }
+    .project{
+        width: 95%;
+        height: 40rem;
+        /* border-radius: 20px; */
+    }
+    .projectName{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    .projectSub{
+        font-size: 1.8rem;
+    }
+    .projectText{
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+        letter-spacing: 1px;
+    }
+    .projectTextArea{
+        width: 80%;
+    }
+    .projectButtons{
+        width: 100%;
+    }
+    .projectBtn{
+        width: 130px;
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 800px){
     /* NAVBAR */
     .navbar{
         height: 100px;
@@ -348,15 +436,38 @@ body{
     .navItem{
         font-size: 20px;
     }
+    .bannerContainer{
+        font-size: 1.2rem;
+    }
 
 
     /* ABOUT ME */
     .aboutMeArea{
-        width: 85%;
-        height: 70%;
+        width: 95%;
+        height: 90%;
     }
     .aboutMeContainer{
-        height: 90vh;
+        height: 70vh;
+    }
+    .aboutMeTitle{
+        font-size: 3rem;
+    }
+    .aboutMeJobTitle{
+        font-size: 2rem;
+    }
+    .aboutMeinfo{
+        font-size: 1.3rem;
+    }
+    .aboutMeDescription{
+        font-size: 1.2rem;
+    }
+    .aboutMeLang{
+        font-size: 1.3rem;
+    }
+    .aboutMeResume{
+        height: 40px;
+        width: 150px;
+        font-size: 1.1rem;
     }
 
 
@@ -364,17 +475,24 @@ body{
     .projectSectionTitle{
         font-size: 30px;
         height: 70px;
+        letter-spacing: 1px;
     }
     .project{
-        width: 90%;
+        width: 95%;
+        height: 38rem;
         /* border-radius: 20px; */
     }
     .projectName{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+    .projectSub{
+        font-size: 1.2rem;
     }
     .projectText{
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 4%;
+        letter-spacing: 1px;
     }
     .projectTextArea{
         width: 80%;
@@ -384,6 +502,90 @@ body{
     }
     .projectBtn{
         width: 120px;
-        font-size: 16px;
+        font-size: .9rem;
+    }
+}
+
+@media all and (max-width: 400px){
+    /* NAVBAR */
+    .navbar{
+        height: 100px;
+    }
+    .navTitle{
+        font-size: 30px;
+    }
+    .navImage{
+        height: 30px;
+    }
+    .navItem{
+        font-size: 20px;
+    }
+    .bannerContainer{
+        font-size: 1.2rem;
+    }
+
+
+    /* ABOUT ME */
+    .aboutMeArea{
+        width: 95%;
+        height: 90%;
+    }
+    .aboutMeContainer{
+        height: 70vh;
+    }
+    .aboutMeTitle{
+        font-size: 2rem;
+    }
+    .aboutMeJobTitle{
+        font-size: 1.3rem;
+    }
+    .aboutMeinfo{
+        font-size: 1.1rem;
+    }
+    .aboutMeDescription{
+        font-size: .9rem;
+    }
+    .aboutMeLang{
+        font-size: 1.1rem;
+    }
+    .aboutMeResume{
+        height: 30px;
+        width: 130px;
+        font-size: 1rem;
+    }
+
+
+    /* PROJECTS */
+    .projectSectionTitle{
+        font-size: 30px;
+        height: 70px;
+        letter-spacing: 1px;
+    }
+    .project{
+        width: 95%;
+        height: 38rem;
+        /* border-radius: 20px; */
+    }
+    .projectName{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+    .projectSub{
+        font-size: 1.2rem;
+    }
+    .projectText{
+        font-size: 1rem;
+        margin-bottom: 4%;
+        letter-spacing: 1px;
+    }
+    .projectTextArea{
+        width: 80%;
+    }
+    .projectButtons{
+        width: 100%;
+    }
+    .projectBtn{
+        width: 120px;
+        font-size: .9rem;
     }
 }
