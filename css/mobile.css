@@ -1,0 +1,182 @@
+@media all and (max-width: 1200px){
+    .FooterLinks{
+        width: 13%;
+    }
+}
+
+@media all and (max-width: 800px){
+    .SectionHeader{
+        font-size: 28px;
+    }
+
+    /* NAVBAR */
+    .NavBody{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .NavLogo{
+        height: 32px;
+    }
+    .NavLink{
+        margin-left: 10px;
+    }
+
+    /* HEADER */
+    .HeaderContainer{
+        height: 25%;
+    }
+    .HeaderTitle{
+        font-size: 40px;
+    }
+    .HeaderDescription{
+        font-size: 30px;
+    }
+    .HeaderButton{
+        margin-top: 10px;
+    }
+
+    /* PROJECTS */
+    .ProjectsBody{
+        flex-direction: column;
+        height: 1800px;
+        align-items: center;
+    }
+    .ProjectArea{
+        width: 90%;
+    }
+    .ProjectImage{
+        height: 500px;
+    }
+    .ProjectTitle{
+        font-size: 20px;
+    }
+    .ProjectTag{
+        font-size: 18px;
+    }
+    .ProjectAll{
+        font-size: 25px;
+    }
+
+    /* SUMMARY */
+    .SummaryContainer{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .SummaryImage{
+        width: 100%;
+    }
+    .SummaryArea{
+        width: 90%;
+        height: 100%;
+    }
+
+    /* SERVICES */
+    .ServicesContainer{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .ServiceDesciptionArea{
+        width: 60%;
+        height: 70%;
+    }
+
+    /* FOOTER */
+    .FooterLinks{
+        width: 20%;
+    }
+
+    /* PROJECTS */
+    .Blank{
+        display: none;
+    }
+    .Less{
+        height: 1200px;
+    }
+}
+
+@media all and (max-width: 400px){
+    .SectionHeader{
+        font-size: 25px;
+        padding-left: 20px;
+
+    }
+
+    .NavBody{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Blank2{
+        display: none;
+    }
+    .NavLogo{
+        height: 38px;
+    }
+    .NavLink{
+        margin-left: 10px;
+        height: 35px;
+    }
+    .NavMessageBox{
+        padding-left: 10px;
+    }
+
+    /* HEADER */
+    .HeaderContainer{
+        height: 25%;
+    }
+    .HeaderTitle{
+        font-size: 40px;
+    }
+    .HeaderDescription{
+        font-size: 25px;
+    }
+    .HeaderButton{
+        margin-top: 10px;
+    }
+
+    /* PROJECTS */
+    .ProjectsBody{
+        flex-direction: column;
+        height: 1300px;
+        align-items: center;
+    }
+    .ProjectArea{
+        width: 90%;
+    }
+    .ProjectImage{
+        height: 350px;
+    }
+    .ProjectTitle{
+        font-size: 20px;
+    }
+    .ProjectTag{
+        font-size: 18px;
+    }
+    .ProjectAll{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    /* SERVICES */
+    .ServicesContainer{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .ServiceDesciptionArea{
+        width: 60%;
+        height: 65%;
+    }
+    
+    /* FOOTER */
+    .FooterArea{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .FooterLinks{
+        width: 40%;
+    }
+
+    /* PROJECTS */
+    .Less{
+        height: 850px;
+    }
+}

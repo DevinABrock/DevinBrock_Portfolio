@@ -1,0 +1,69 @@
+.NavBody{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+}
+.NavTitle{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.NavLogo{
+    height: 40px;
+}
+.NavLink{
+    height: 30px;
+    margin-left: 5px;
+}
+.NavMessageBox{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    height: 35px;
+    background-color: #54595F;
+    color: white;
+}
+.NavMessage{
+    letter-spacing: 2px;
+}
+
+.FooterArea{
+    height: 200px;
+    background-color: #54595F;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.FooterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+}
+.FooterTitle{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.FooterContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.FooterLinks{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.FooterLink{
+    text-decoration: none;
+    color: white;
+}
