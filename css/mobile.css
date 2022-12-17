@@ -2,6 +2,9 @@
     .FooterLinks{
         width: 13%;
     }
+    .Blank2{
+        display: none;
+    }
 }
 
 @media all and (max-width: 850px){
@@ -19,6 +22,9 @@
     }
     .NavLink{
         margin-left: 10px;
+    }
+    .Blank2{
+        display: none;
     }
 
     /* HEADER */
