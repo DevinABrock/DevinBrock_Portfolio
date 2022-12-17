@@ -98,7 +98,12 @@
     .SectionHeader{
         font-size: 25px;
         padding-left: 20px;
+        margin-top: 10px;
 
+    }
+
+    .Space{
+        height: 30px;
     }
 
     .NavBody{
@@ -109,7 +114,7 @@
         display: none;
     }
     .NavLogo{
-        height: 38px;
+        height: 35px;
     }
     .NavLink{
         margin-left: 10px;
@@ -136,14 +141,14 @@
     /* PROJECTS */
     .ProjectsBody{
         flex-direction: column;
-        height: 1300px;
+        height: 1200px;
         align-items: center;
     }
     .ProjectArea{
         width: 90%;
     }
     .ProjectImage{
-        height: 350px;
+        height: 300px;
     }
     .ProjectTitle{
         font-size: 20px;
@@ -177,6 +182,6 @@
 
     /* PROJECTS */
     .Less{
-        height: 850px;
+        height: 770px;
     }
 }
