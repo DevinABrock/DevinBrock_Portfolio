@@ -37,7 +37,7 @@ body{
     opacity: .4;
 }
 .HeaderContainer{
-    height: 30%;
+    height: 25%;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -114,13 +114,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Anton', sans-serif;
+
 }
 .SummaryArea{
     width: 40%;
-    height: 60%;
+    height: 65%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,8 +130,16 @@ body{
 }
 .SummaryBody{
     width: 70%;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+}
+.detail{
+    width: 70%;
     font-size: 18px;
     letter-spacing: 1px;
+    line-height: 1.5;
 }
 .SummaryArt{
     display: flex;

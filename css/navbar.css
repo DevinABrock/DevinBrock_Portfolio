@@ -1,22 +1,23 @@
 .NavBody{
-    height: 6vh;
+    height: 8vh;
     display: flex;
     align-items: center;
     padding-left: 40px;
     padding-right: 40px;
     justify-content: space-between;
     background-color: #F6F6F6;
+    /* background-color: red; */
 }
 .NavTitle{
-    font-size: 25px;
+    font-size: 30px;
     color: black;
     text-decoration: none;
 }
 .NavLogo{
-    height: 40px;
+    height: 45px;
 }
 .NavLink{
-    height: 30px;
+    height: 40px;
     margin-left: 5px;
 }
 .NavMessageBox{
